@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Graduation Project\EEPROM\1\E2PROM.uvproj
+Project File Date:  02/15/2018
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=1876 RO-data=652 RW-data=44 ZI-data=612  
+".\E2PROM.axf" - 0 Error(s), 0 Warning(s).
+0 errors
+linking...
+Program Size: Code=1876 RO-data=652 RW-data=44 ZI-data=612  
+".\E2PROM.axf" - 0 Error(s), 1 Warning(s).
+uint8_t i=0;i<= size-1;i++){
+main.c(61): error:  #29: expected an expression
+         for (int i=0; i<MAX_ELEMENT_NO; i++){
+main.c(72): error:  #254: type name is not allowed
+         for (uint8_t i=0; i<MAX_ELEMENT_NO; i++){
+main.c(72): error:  #65: expected a ";"
+         for (uint8_t i=0; i<MAX_ELEMENT_NO; i++){
+main.c(72): error:  #20: identifier "i" is undefined
+         for (uint8_t i=0; i<MAX_ELEMENT_NO; i++){
+main.c(83): error:  #268: declaration may not appear after executable statement in block
+                E2data read;
+main.c(84): error:  #254: type name is not allowed
+                for(uint8_t i=0;i<MAX_ELEMENT_NO;i++){
+main.c(84): error:  #65: expected a ";"
+                for(uint8_t i=0;i<MAX_ELEMENT_NO;i++){
+main.c(84): error:  #20: identifier "i" is undefined
+                for(uint8_t i=0;i<MAX_ELEMENT_NO;i++){
+main.c(119): warning:  #1-D: last line of file ends without a newline
+  SCB_CPAC |= 0x00F00000;}
+main.c: 1 warning, 11 errors
+".\E2PROM.axf" - 11 Error(s), 1 Warning(s).
+Target not created
